@@ -1,3 +1,12 @@
+<img src = "https://i.ibb.co/RgBZ0Gk/Screenshot-94.png">
+
+<img src = "https://i.ibb.co/Xz2TpCb/Screenshot-92.png">
+
+<img src = "https://i.ibb.co/PCrX4qH/Screenshot-95.png">
+
+<img src = "https://i.ibb.co/L8V07t7/Screenshot-93.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,8 +14,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### to run client side
+### `cd client` => `npm start` => `http://localhost:3000`
 
-### `npm start`
+### to run server side
+
+### `cd server` => `npm start` => `http://localhost:8000`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
