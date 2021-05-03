@@ -114,9 +114,14 @@ app.get("/create_room", (req, res) => {
   res.json(result);
 });
 
-//Sample Request
+// HOMEPAGE
 app.get("/", (req, res) => {
-  res.send({ message: "We did it!" });
+  res.send("HOME");
+});
+
+// ROUTES THAT NOT BEEN DEFINED
+app.get("*", (req, res) => {
+  res.send("You've tried reaching a route that doesn't exist.");
 });
 
 //Open Socket io Connection
