@@ -15,11 +15,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 ### to run client side
-### `cd client` => `npm start` => `http://localhost:3000`
+### `cd client` => `npm i` => `npm start` => `http://localhost:3000`
 
 ### to run server side
 
-### `cd server` => `npm start` => `http://localhost:8000`
+### `cd server` =>  `npm i` =>  `npm start` => `http://localhost:8000`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
