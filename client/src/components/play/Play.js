@@ -12,7 +12,7 @@ import Loading from './Loading/Loading'
 let socket;
 const Play = () => {
 
-    const ENDPT = `http://localhost:8000/`;
+    const ENDPT = `http://${serverURL}/`
     //set global user
     const {user , setUser} = useContext(UserContext);
     //To Get Paramters from URL and display
